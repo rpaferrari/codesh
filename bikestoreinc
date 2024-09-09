@@ -1,1 +1,5 @@
+/* LISTA DE CLIENTES QUE NÃO REALIZARAM COMPRA */
 
+select * from
+	customers c
+	left join orders o
